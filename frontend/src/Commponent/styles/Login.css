@@ -1,0 +1,158 @@
+.Login {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.orb-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.backgroun {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+}
+.loginContiner {
+  position: absolute;
+  height: 50%;
+  width: 80%;
+  top: 20%;
+  align-items: center;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  .inputLogin {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .input {
+      height: 50px;
+      width: 35%;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background-color: white;
+      display: flex;
+      padding: 10px 20px;
+    }
+  }
+  .buttonLogin {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 200px;
+      height: 50px;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+      background-color: #3574f3;
+      border-radius: 10px;
+    }
+    button:hover {
+      background-color: #195fec;
+    }
+  }
+}
+.loginContiner > h1 {
+  font-size: 35px;
+  font-family: cursive;
+  color: white;
+}
+
+.singin {
+  position: absolute;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  align-items: center;
+  left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  h1 {
+    font-size: 35px;
+    font-family: cursive;
+    color: white;
+    height: 5%;
+  }
+  .singinInput {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    top: 20%;
+    align-items: center;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    input {
+      height: 50px;
+      width: 40%;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background-color: white;
+      display: flex;
+      padding: 10px 20px;
+    }
+  }
+  .buttonSingin {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .buttonSingin {
+    button {
+      width: 200px;
+      height: 50px;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+      background-color: #3574f3;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #195fec;
+    }
+  }
+}
+
+.switch{
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50% , -10%);
+  font-size: 15px;
+  letter-spacing: 2px;
+
+
+  button{
+    color: #195fec;
+    cursor: pointer;
+    font-size: 20px !important;
+  }
+}

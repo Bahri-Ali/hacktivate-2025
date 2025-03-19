@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
+body {
+  background-color: #020517;
+}
